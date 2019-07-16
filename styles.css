@@ -4,11 +4,23 @@ li {
 
 }
 
+.leftnav a {
+    text-decoration: none;
+    color: #333;
+}
+
 .leftnav {
     text-align: left;
     font-size: 13px;
+    text-decoration: none;
     margin-top: 22px;
     margin-left: 10px;
+}
+
+
+.rightnav a {
+    text-decoration: none;
+    color: #333;
 }
 
 .rightnav {
@@ -40,6 +52,25 @@ body {
 
 .searchbar {
     text-align: center;
+    padding-top: 20px;
+}
+
+.buttons {
+    text-align: center;
+}
+
+.round {
+    width: 28%;
+    border-radius: 15px;
+    border: 1px #000 solid;
+    padding: 5px 5px 5px 25px;
+    opacity: 0.1;
+}
+
+
+.footerleft a {
+    text-decoration: none;
+    color: #333;
 }
 
 .footerleft {
@@ -49,7 +80,12 @@ body {
     left: 0;
     bottom: 0;
     width: 100%;
-    margin: 10px 25px 13px 20px;
+    margin: 10px 15px 17px 20px;
+}
+
+.footerright a {
+    text-decoration: none;
+    color: #333;
 }
 
 .footerright {
